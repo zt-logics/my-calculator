@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ES6 Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="calc" class="card">
+    <h2 class="title">Smart ES6 Calculator</h2>
+
+    <label>Expression</label>
+    <input id="exprInput" type="text" />
+
+    <label>Result</label>
+    <div id="output" class="output">--</div>
+
+    <h3>Buttons</h3>
+    <div id="buttons" class="btn-grid"></div>
+
+    <h3>Variables</h3>
+    <div class="var-row">
+      <input id="varName" placeholder="name" />
+      <input id="varValue" placeholder="value" />
+      <button id="addVar" class="btn-main">Add Variable</button>
+    </div>
+    <div id="vars" class="vars-box"></div>
+
+    <h3>History</h3>
+    <div id="history" class="history-box"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

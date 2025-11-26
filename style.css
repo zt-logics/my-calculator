@@ -1,0 +1,50 @@
+body {
+  font-family: Poppins, Arial; background: #eef1f5; margin: 0; padding: 20px;
+}
+.card {
+  max-width: 480px; margin: auto; background: #ffffff;
+  padding: 20px; border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+.title {
+  text-align: center; color: #333;
+}
+input {
+  width: 100%; padding: 10px; border-radius: 8px;
+  border: 1px solid #ccc; margin: 6px 0 12px;
+}
+.output {
+  background: #222; color: #00ff9c; padding: 12px;
+  border-radius: 8px; font-size: 1.2rem;
+}
+.btn-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 10px; margin: 10px 0;
+}
+button {
+  padding: 10px; border: none; border-radius: 8px;
+  background: #3498db; color: white;
+  cursor: pointer; transition: .3s;
+}
+button:hover {
+  background: #217dbb;
+}
+.btn-main {
+  background: #27ae60;
+}
+.var-row {
+  display: flex; gap: 8px;
+}
+.vars-box, .history-box {
+  background: #f7f7f7; padding: 10px;
+  border-radius: 10px; margin-top: 10px;
+  max-height: 200px; overflow-y: auto;
+}
+.history-box div {
+  padding: 6px; border-bottom: 1px solid #ccc;
+  cursor: pointer; position: relative;
+}
+.history-box button {
+  position: absolute; right: 5px; top: 5px;
+  background: red; padding: 4px 6px;
+}
